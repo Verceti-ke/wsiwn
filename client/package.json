@@ -1,0 +1,52 @@
+{
+  "name": "wsiwn",
+  "description": "What Should I Watch Next?",
+  "author": "Nirantak Raghav",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "homepage": "https://github.com/nirantak/wsiwn",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "format": "prettier --write src/**/*.{js,jsx}"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "engines": {
+    "node": "11.13.0",
+    "npm": "6.9.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "formik": "^1.5.2",
+    "formik-material-fields": "0.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^2.1.8",
+    "styled-components": "^4.2.0",
+    "yup": "^0.26.10"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirantak/wsiwn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nirantak/wsiwn/issues"
+  }
+}

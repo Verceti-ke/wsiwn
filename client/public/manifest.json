@@ -1,0 +1,25 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "WSIWN",
+  "short_name": "WSIWN",
+  "description": "What Should I Watch Next?",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/android-chrome-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/"
+}
